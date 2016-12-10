@@ -1,4 +1,7 @@
 library(shiny)
+library(data.table)
+library(dplyr)
+library(ggplot2)
 
 ui <- fluidPage(
         verticalLayout(
